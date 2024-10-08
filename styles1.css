@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-pink {
+  background: lightpink;
+}
+
+.menu {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #cdcdcd;
+}
+
+.menu ul li {
+  padding: .35em .7em;
+}
+.menu ul li:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.is-hidden {
+  display: none;
+}

@@ -1,0 +1,11 @@
+.form-control {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+input {
+  font-size: 1.4rem;
+  padding: .4em .8em;
+}
